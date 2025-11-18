@@ -5,9 +5,9 @@ import { theme } from "./theme";
 export default function App() {
   return (
     <View style={styles.container}>
-      <ShoppingListItem name="Coffee" />
-      <ShoppingListItem name="Tea" />
-      <ShoppingListItem name="Milk" />
+      <ShoppingListItem name="Coffee" isCompleted={false} />
+      <ShoppingListItem name="Tea" isCompleted />
+      <ShoppingListItem name="Milk" isCompleted />
     </View>
   );
 }
