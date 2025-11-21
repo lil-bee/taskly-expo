@@ -4,7 +4,7 @@ import { theme } from "../theme";
 
 type Props = {
   name: string;
-  isCompleted: boolean;
+  isCompleted?: boolean;
 };
 
 const ShoppingListItem = ({ name, isCompleted }: Props) => {
